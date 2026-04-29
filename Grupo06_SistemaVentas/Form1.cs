@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -46,6 +47,19 @@ namespace Grupo06_SistemaVentas
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form2 Marca = new Form2();
+            Marca.Show();
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form3 Categoria = new Form3();
+            Categoria.Show();
         }
     }
 
